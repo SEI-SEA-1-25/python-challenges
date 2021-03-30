@@ -38,5 +38,5 @@ elif choice == '-':
     print(A, "-", B, "=", subtract(A, B))
 elif choice == '*':
     print(A, "*", B, "=", multiply(A, B))
-elif choice == '-':
+elif choice == '/':
     print(A, "/", B, "=", divide(A, B))

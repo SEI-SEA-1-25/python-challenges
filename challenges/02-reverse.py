@@ -13,4 +13,13 @@ def string(x):
 
 reverse_string = string("forward and backwards")
 
-print(reverse_string)
+# print(reverse_string)
+
+
+my_str = input('Enter a string: ')
+word = ''
+
+for reverse in my_str:
+    word = reverse + word
+
+print(word)
