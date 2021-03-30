@@ -19,13 +19,13 @@ numberTwo = int(responseTwo)
 
 def calculate(num1, num2):
     if add:
-        print(numberOne + numberTwo)
+        print(num1 + num2)
     elif subtract:
-        print(numberOne - numberTwo)
+        print(num1 - num2)
     elif multiply:
-        print(numberOne - numberTwo)
+        print(num1 - num2)
     elif divide:
-        print(numberOne / numberTwo)
+        print(num1 / num2)
     else:
         print('Enter a number')
 
