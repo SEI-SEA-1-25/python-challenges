@@ -4,7 +4,7 @@ def results():
 
   return (num_one, num_two)
 
-operation = input("addition, subtraction, division or multiplication? 🧮")
+operation = input("+, -, / or *?\n 🧮 : ")
 
 
 # add
@@ -26,6 +26,7 @@ elif operation == "*":
 elif operation == "/":
   num_one, num_two = results()
   result = round(num_one / num_two, 2)
+  print(f"Your result is {result}")
 #catch
 else:
   print("🤯 No go")
