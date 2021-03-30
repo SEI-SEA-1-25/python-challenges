@@ -5,4 +5,5 @@
 string = input('give me a string to alphabetize!\n')
 letters = list(string)
 letters.sort()
-print(letters)
+result = ''.join(letters)
+print(result)
