@@ -23,12 +23,13 @@ def print_balance():
 
 
 print(f"Your balance is:\n{balance} ")
+
+
 def deposit():
 
+    user_input = input("How much would you like to deposit?\n")
 
-user_input = input("How much would you like to deposit?\n")
-
-return int(user_input)
+    return int(user_input)
 
 
 def withdraw():

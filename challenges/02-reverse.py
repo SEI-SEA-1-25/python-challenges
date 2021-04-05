@@ -10,12 +10,12 @@
 # Python code to convert string to list character-wise
 # # todo #####################
 # # todo: text to string
-# txt_to_list = "¡Hola Mundo!"
+# ! txt_to_list = "¡Hola Mundo!"
 
 
 # def converted_txt(txt_to_list):
 #     # todo: CONVERTS
-#     list_of_txt = []
+# ?    list_of_txt = []
 #     list_of_txt[:0] = "string"
 #     return list_of_txt
 
